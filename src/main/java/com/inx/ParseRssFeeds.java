@@ -49,9 +49,9 @@ public class ParseRssFeeds {
 	 * 
 	 * To run this command in eclipse, add these arguments to you run configuration:
 	 * 
-        -elasticsearchserverandport http://localhost:9200/
-        -elasticsearchparentindexsuffix rss_feeds_hierarchy/rss_feeds_parent/
-        -elasticsearchchildindexsuffix rss_feeds_hierarchy/rss_feeds_child/
+        -esserverandport "http://localhost:9200/"
+        -esparentindexsuffix "rss_feeds_hierarchy/rss_feeds_parent/"
+        -eschildindexsuffix "rss_feeds_hierarchy/rss_feeds_child/"
         -inputfile "/Users/doanth/Downloads/Bliss/InXero.Sample.Content Sources.July.15.2017.csv"	
 	 * 
 	 */
@@ -59,7 +59,7 @@ public class ParseRssFeeds {
 	/***
 	 * Here are the same arguments on a single line
 	 * 
-	 * -elasticsearchserverandport http://localhost:9200/ -elastcisearchparentindexsuffix rss_feeds_hierarchy/rss_feeds_parent/ -elasticsearchchildindexsuffix rss_feeds_hierarchy/rss_feeds_child/ -inputfile "/Users/doanth/Downloads/Bliss/InXero.Sample.Content Sources.July.15.2017.csv"	
+	 * -esserverandport "http://localhost:9200/" -esparentindexsuffix "rss_feeds_hierarchy/rss_feeds_parent/" -eschildindexsuffix "rss_feeds_hierarchy/rss_feeds_child/" -inputfile "/Users/doanth/Downloads/Bliss/InXero.Sample.Content Sources.July.15.2017.csv"	
 	 * 
 	 */
 	
